@@ -1,16 +1,26 @@
 # WinBid - Online Bidding Platform
-
-Welcome to **WinBid**, an innovative online platform where users can purchase various products through competitive bidding. Sellers can list their products and maximize their profits by selling to the highest bidder. This project is built using **Node.js** for the backend and **MongoDB** as the database.
+## Description
+* Welcome to WinBid, an innovative online platform where users can purchase various products through competitive bidding. Sellers can list their products and maximize their profits by selling to the highest bidder.
 
 ## Table of Contents
+- [Repo link](#github-repo-link)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
+- [Run Locally](#run-locally)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
+- [Screen Shots](#screen-shots)
 - [Contributing](#contributing)
-- [License](#license)
 
+
+## GitHub Repo Link: 
+```bash 
+  https://github.com/SinghTanmay024/WinBid
+```
+
+<!-- ## Live Demo URL: 
+```bash 
+  https://expense-management-system-prakash.netlify.app/
+``` -->
 ## Features
 - **User Registration/Login** - Secure user authentication and authorization.
 - **Product Listing** - Sellers can list products with detailed descriptions and starting bid prices.
@@ -21,34 +31,45 @@ Welcome to **WinBid**, an innovative online platform where users can purchase va
 - **Buyer Dashboard** - Monitor active bids, winnings, and transaction history.
 
 ## Technologies Used
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Frontend:** React.js (optional, if developed)
-- **Authentication:** JWT (JSON Web Tokens)
-- **Real-time Communication:** Socket.IO
-- **Payment Integration:** Stripe/PayPal (optional, if integrated)
+- **Frontend:** EJS, Bootstrap, Tailwind.
+- **Backend:** Node.js, Express.js.
+- **Database:** MongoDB.
 
-## Installation
-
-1. Clone the repository:
+## Run Locally
+**Step:1-** Clone the project
 ```bash
-  git clone https://github.com/username/winbid.git
-  cd winbid
+  git clone https://github.com/SinghTanmay024/WinBid.git
 ```
-2. Install dependencies:
+
+**Step:2-** Go to the project directory
+```bash
+  cd WinBid
+```
+
+**Step:3-** Install all the dependencies.
+* Installl dependencies for backend server
 ```bash
   npm install
 ```
-3. Set up environment variables:
-Create a `.env` file and add the following:
-```
-  MONGO_URI=<your-mongodb-uri>
-  JWT_SECRET=<your-jwt-secret>
-  PORT=5000
-```
-4. Start the server:
+
+**Step:4-** Make .env file in your WinBid folder project which will contain all your development environment variables with private keys
 ```bash
-  npm start
+  MONGO_URL =
+  CLOUDINARY_CLOUD_NAME =
+  CLOUDINARY_KEY = 
+  CLOUDINARY_SECRET = 
+```
+
+**Step:5-** Start the project
+* Start the server and front end
+```bash
+  //open new terminal
+  node app.js
+```
+
+**Step:6-** Now WinBid App is running in your local system at
+```bash
+  localhost:3000
 ```
 
 ## Usage
@@ -57,21 +78,7 @@ Create a `.env` file and add the following:
 3. Users can browse products and place bids.
 4. Winning bids will be notified, and transactions can proceed.
 
-## API Endpoints
-- **POST /api/auth/register** - Register a new user
-- **POST /api/auth/login** - Login to your account
-- **POST /api/products** - List a new product (Seller only)
-- **GET /api/products** - Get all products
-- **POST /api/bid/:id** - Place a bid on a product
-- **GET /api/bid/user** - View user's bidding history
-
-## Contributing
-Contributions are welcome! Please fork this repository and create a pull request with detailed changes.
-
-## License
-This project is licensed under the MIT License.
-
-
+## Screen shots
 ![ss1](https://github.com/SinghTanmay024/WinBid/assets/106429652/c81c20c1-24b6-4154-91b7-1f85214cf468)
 
 
@@ -79,3 +86,10 @@ This project is licensed under the MIT License.
 
 
 ![ss3](https://github.com/SinghTanmay024/WinBid/assets/106429652/c4a5a01b-df2c-418a-ace7-780b0ca5e95c)
+
+
+## Contributing
+Contributions are welcome! Please fork this repository and create a pull request with detailed changes.
+
+## Made By
+- [@SinghTanmay024](https://github.com/SinghTanmay024)
