@@ -8,7 +8,6 @@
 - [Technologies Used](#technologies-used)
 - [Run Locally](#run-locally)
 - [Usage](#usage)
-<!-- - [API Endpoints](#api-endpoints) -->
 - [Screen Shots](#screen-shots)
 - [Contributing](#contributing)
 
@@ -68,7 +67,7 @@
   node app.js
 ```
 
-**Step:6-** Now WinBid App is running in your local system in your
+**Step:6-** Now WinBid App is running in your local system at
 ```bash
   localhost:3000
 ```
